@@ -1,9 +1,9 @@
 var labelID;
 var global = this;
-var client_id = "44433400230-rhbr3plsprjkjodpth0s2hm2cnrbmcfa.apps.googleusercontent.com";
+var client_id = "xxxxxxxx";
 var scopes = "https://www.googleapis.com/auth/gmail.settings.basic https://www.googleapis.com/auth/gmail.labels https://www.googleapis.com/auth/gmail.modify";
-var redirectUri = "https://jljicfihpdcimopabpijdhhjbmenjala.chromiumapp.org/oauth2";
-var client_secret = "PLQECfI4JjU7nT5kqhHdsaIh";
+var redirectUri = "xxxxxxxx";
+var client_secret = "xxxxx";
 var db = '';
 chrome.runtime.onMessage.addListener(
     function(request, sender, sendResponse) {
